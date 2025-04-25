@@ -1,0 +1,60 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Untitled</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+<body>
+  <header>
+    <h1>Gimnasio La italiana</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Planes</a></li>
+        <li><a href="#">Horarios</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+    <img src="./pexels-goumbik-669584.jpg" alt="Gimnasio" width="100%">
+  </header>
+
+  <main>
+    <h2>Formulario de Registro</h2>
+    <form>
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="plan">Tipo de plan:</label>
+      <select id="plan" name="plan">
+        <option value="basico">Básico</option>
+        <option value="intermedio">Intermedio</option>
+        <option value="premium">Premium</option>
+      </select>
+
+      <label>Horarios preferidos:</label>
+      <div class="checkbox-group">
+        <label><input type="checkbox" name="horario" value="mañana"> Mañana</label>
+        <label><input type="checkbox" name="horario" value="tarde"> Tarde</label>
+        <label><input type="checkbox" name="horario" value="noche"> Noche</label>
+      </div>
+
+      <input type="submit" value="Registrarse">
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Gimnasio La italiana</p>
+  </footer>
+</body>
+</html>
